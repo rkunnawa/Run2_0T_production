@@ -79,7 +79,7 @@ process.FEVTDEBUGHLToutput = cms.OutputModule("PoolOutputModule",
 # Additional output definition
 
 # Other statements
-process.g4SimHits.UseMagneticField = cms.bool(False)
+#process.g4SimHits.UseMagneticField = cms.bool(False)
 process.mix.digitizers = cms.PSet(process.theDigitizersValid)
 from Configuration.AlCa.GlobalTag import GlobalTag
 process.GlobalTag = GlobalTag(process.GlobalTag, '75X_mcRun2_asymptotic_v1', '')

@@ -1,0 +1,133 @@
+# Conditions read from  CMS_CONDITIONS  via FrontierProd 
+DEBUG 2015-11-10 04:05:37,673: 	 Executing command: 'submit'
+DEBUG 2015-11-10 04:05:37,673: 	 Found CRAB cache file /afs/cern.ch/user/r/rkunnawa/.crab3
+DEBUG 2015-11-10 04:05:37,679: 	 Checking credentials
+DEBUG 2015-11-10 04:05:37,680: 	 Found proxy file /tmp/x509up_u47972
+DEBUG 2015-11-10 04:05:37,680: 	 Getting proxy life time left
+DEBUG 2015-11-10 04:05:38,284: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u47972 -timeleft
+ output : 41548
+
+ error: 
+ retcode : 0
+DEBUG 2015-11-10 04:05:38,790: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u47972 -actimeleft
+ output : 41548
+
+ error: 
+ retcode : 0
+DEBUG 2015-11-10 04:05:38,790: 	 Proxy valid for 11:32:28 hours
+INFO 2015-11-10 04:05:38,790: 	 Will use CRAB configuration file crabConfig_DIGIRAW.py
+DEBUG 2015-11-10 04:05:38,791: 	 Loading CRAB configuration file.
+DEBUG 2015-11-10 04:05:38,795: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2015-11-10 04:05:39,007: 	 Executing : 
+ command : openssl x509 -in ~/.globus/usercert.pem -subject -noout
+ output : subject= /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=rkunnawa/CN=748357/CN=Raghav Kunnawalkam Elayavalli
+
+ error: WARNING: can't open config file: /build/dmwmbld/srv/state/dmwmbld/builds/comp_gcc481/w/tmp/BUILDROOT/ef35842be28ecca6d10195ea8182a5ac/build/dmwmbld/srv/state/dmwmbld/builds/comp_gcc481/w/slc6_amd64_gcc481/external/openssl/1.0.1p/ssl/openssl.cnf
+
+ retcode : 0
+DEBUG 2015-11-10 04:05:39,007: 	 Checking credentials
+DEBUG 2015-11-10 04:05:39,008: 	 Found proxy file /tmp/x509up_u47972
+DEBUG 2015-11-10 04:05:39,008: 	 Getting proxy life time left
+DEBUG 2015-11-10 04:05:39,617: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u47972 -timeleft
+ output : 41547
+
+ error: 
+ retcode : 0
+DEBUG 2015-11-10 04:05:40,124: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u47972 -actimeleft
+ output : 41546
+
+ error: 
+ retcode : 0
+DEBUG 2015-11-10 04:05:40,125: 	 Proxy valid for 11:32:27 hours
+DEBUG 2015-11-10 04:05:40,630: 	 Executing : 
+ command : env X509_USER_PROXY=/tmp/x509up_u47972 voms-proxy-info -fqan
+ output : /cms/Role=NULL/Capability=NULL
+/cms/uscms/Role=NULL/Capability=NULL
+
+ error: 
+ retcode : 0
+DEBUG 2015-11-10 04:05:41,055: 	 Registering user credentials for server /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119).cern.ch
+DEBUG 2015-11-10 04:05:41,175: 	 Executing : 
+ command : openssl x509 -in ~/.globus/usercert.pem -subject -noout
+ output : subject= /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=rkunnawa/CN=748357/CN=Raghav Kunnawalkam Elayavalli
+
+ error: WARNING: can't open config file: /build/dmwmbld/srv/state/dmwmbld/builds/comp_gcc481/w/tmp/BUILDROOT/ef35842be28ecca6d10195ea8182a5ac/build/dmwmbld/srv/state/dmwmbld/builds/comp_gcc481/w/slc6_amd64_gcc481/external/openssl/1.0.1p/ssl/openssl.cnf
+
+ retcode : 0
+DEBUG 2015-11-10 04:05:41,176: 	 Getting myproxy life time left for myproxy.cern.ch
+DEBUG 2015-11-10 04:05:41,176: 	 Calculating hash of /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=rkunnawa/CN=748357/CN=Raghav Kunnawalkam Elayavalli_cmsweb.cern.ch for credential name
+DEBUG 2015-11-10 04:05:41,382: 	 Executing : 
+ command : myproxy-info -l f177240e44e51f49e4026efe0693b4e2b9fc52c9 -s myproxy.cern.ch
+ output : username: f177240e44e51f49e4026efe0693b4e2b9fc52c9
+owner: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=rkunnawa/CN=748357/CN=Raghav Kunnawalkam Elayavalli
+  renewal policy: /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119).cern.ch
+  trusted retrieval policy: /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119).cern.ch
+  timeleft: 420:55:50  (17.5 days)
+
+ error: 
+ retcode : 0
+DEBUG 2015-11-10 04:05:41,384: 	 Myproxy is valid: 1515350
+DEBUG 2015-11-10 04:05:41,384: 	 Command use: submit
+DEBUG 2015-11-10 04:05:41,384: 	 Options use: ['-c', 'crabConfig_DIGIRAW.py']
+DEBUG 2015-11-10 04:05:41,788: 	 CRABClient version: 3.3.1511
+DEBUG 2015-11-10 04:05:41,788: 	 Instance is prod
+DEBUG 2015-11-10 04:05:41,788: 	 Server base url is cmsweb.cern.ch
+DEBUG 2015-11-10 04:05:41,788: 	 Command url /crabserver/prod/workflow
+DEBUG 2015-11-10 04:05:41,788: 	 Started submission
+DEBUG 2015-11-10 04:05:41,788: 	 Working on /afs/cern.ch/work/r/rkunnawa/Run2_Production/CMSSW_7_5_4/src/PP/0T/step2_DIGI_L1_DIGI2RAW_HLT_RAW2DIGI_L1Reco_80/crab_20151110_040538
+DEBUG 2015-11-10 04:05:42,244: 	 Loading required information from the environment
+DEBUG 2015-11-10 04:05:42,244: 	 Found CMSSW_7_5_4 for slc6_amd64_gcc491 with base /afs/cern.ch/work/r/rkunnawa/Run2_Production/CMSSW_7_5_4
+DEBUG 2015-11-10 04:05:42,277: 	 UNIQUE NAME: tarUUID f39cd133-00da-48d0-ba46-48c362f11d5a 
+DEBUG 2015-11-10 04:05:42,277: 	 self.config: from WMCore.Configuration import Configuration
+config = Configuration()
+config.section_('General')
+config.General.transferOutputs = True
+config.section_('JobType')
+config.JobType.psetName = 'step2_DIGI_L1_DIGI2RAW_HLT_RAW2DIGI_L1Reco.py'
+config.JobType.pluginName = 'Analysis'
+config.JobType.inputFiles = ['rssLimit']
+config.JobType.outputFiles = ['step2.root']
+config.section_('Data')
+config.Data.inputDataset = '/PYTHIA_QCD_0T_TuneCUETP8M1_cfi_GEN_SIM_5020GeV/rkunnawa-Pythia8_Dijet_0T_pthat80_pp_TuneCUETP8M1_5020GeV_PrivMC-b5d69ad931864113e91c5646287a3f6f/USER'
+config.Data.outputDatasetTag = 'Pythia8_Dijet_0T_pthat80_pp_TuneCUETP8M1_5020GeV_DIGIRAW_PrivMC'
+config.Data.totalUnits = 59000
+config.Data.unitsPerJob = 100
+config.Data.inputDBS = 'phys03'
+config.Data.splitting = 'EventAwareLumiBased'
+config.Data.publication = True
+config.section_('User')
+config.section_('Site')
+config.Site.whitelist = ['T2_US_MIT']
+config.Site.storageSite = 'T2_US_MIT'
+
+DEBUG 2015-11-10 04:05:42,277: 	 self.config.JobType.psetName: step2_DIGI_L1_DIGI2RAW_HLT_RAW2DIGI_L1Reco.py
+INFO 2015-11-10 04:05:42,277: 	 Importing CMSSW configuration step2_DIGI_L1_DIGI2RAW_HLT_RAW2DIGI_L1Reco.py
+INFO 2015-11-10 04:05:44,418: 	 Finished importing CMSSW configuration step2_DIGI_L1_DIGI2RAW_HLT_RAW2DIGI_L1Reco.py
+DEBUG 2015-11-10 04:05:44,418: 	 Writing CMSSW configuration to /afs/cern.ch/work/r/rkunnawa/Run2_Production/CMSSW_7_5_4/src/PP/0T/step2_DIGI_L1_DIGI2RAW_HLT_RAW2DIGI_L1Reco_80/crab_20151110_040538/inputs/PSet.py
+DEBUG 2015-11-10 04:05:45,124: 	 The following EDM output files will be collected: ['step2.root']
+DEBUG 2015-11-10 04:05:45,124: 	 The following TFile output files will be collected: []
+DEBUG 2015-11-10 04:05:45,124: 	 The following user output files will be collected: []
+DEBUG 2015-11-10 04:05:45,124: 	 Loading required information from the environment
+DEBUG 2015-11-10 04:05:45,124: 	 Found CMSSW_7_5_4 for slc6_amd64_gcc491 with base /afs/cern.ch/work/r/rkunnawa/Run2_Production/CMSSW_7_5_4
+DEBUG 2015-11-10 04:05:45,124: 	 Making tarball in /afs/cern.ch/work/r/rkunnawa/Run2_Production/CMSSW_7_5_4/src/PP/0T/step2_DIGI_L1_DIGI2RAW_HLT_RAW2DIGI_L1Reco_80/crab_20151110_040538/inputs/f39cd133-00da-48d0-ba46-48c362f11d5adefault.tgz
+DEBUG 2015-11-10 04:05:45,125: 	 Checking directory /afs/cern.ch/work/r/rkunnawa/Run2_Production/CMSSW_7_5_4/lib
+DEBUG 2015-11-10 04:05:45,125: 	 Adding directory /afs/cern.ch/work/r/rkunnawa/Run2_Production/CMSSW_7_5_4/lib to tarball
+DEBUG 2015-11-10 04:05:45,131: 	 Checking directory /afs/cern.ch/work/r/rkunnawa/Run2_Production/CMSSW_7_5_4/biglib
+DEBUG 2015-11-10 04:05:45,131: 	 Adding directory /afs/cern.ch/work/r/rkunnawa/Run2_Production/CMSSW_7_5_4/biglib to tarball
+DEBUG 2015-11-10 04:05:45,132: 	 Checking directory /afs/cern.ch/work/r/rkunnawa/Run2_Production/CMSSW_7_5_4/module
+DEBUG 2015-11-10 04:05:45,157: 	 Adding file rssLimit to tarball
+DEBUG 2015-11-10 04:05:45,306: 	 Uploading archive /afs/cern.ch/work/r/rkunnawa/Run2_Production/CMSSW_7_5_4/src/PP/0T/step2_DIGI_L1_DIGI2RAW_HLT_RAW2DIGI_L1Reco_80/crab_20151110_040538/inputs/f39cd133-00da-48d0-ba46-48c362f11d5adefault.tgz to the CRAB cache. Using URI https://cmsweb.cern.ch/crabcache
+DEBUG 2015-11-10 04:05:45,882: 	 Result uploading input files: b00dd4e1d5d674560944ba24551f6777a5500595b2d53e8bccaeea75b7aaffcd.tar.gz 
+INFO 2015-11-10 04:05:45,882: 	 Sending the request to the server
+DEBUG 2015-11-10 04:05:45,882: 	 Submitting {'maxjobruntime': 1250, 'adduserfiles': ['rssLimit'], 'ignorelocality': 0, 'savelogsflag': 0, 'useparent': 0, 'asyncdest': 'T2_US_MIT', 'algoargs': 100, 'cachefilename': 'b00dd4e1d5d674560944ba24551f6777a5500595b2d53e8bccaeea75b7aaffcd.tar.gz', 'numcores': 1, 'addoutputfiles': [], 'generator': 'pythia', 'maxmemory': 2000, 'publishdbsurl': 'https://cmsweb.cern.ch/dbs/prod/phys03/DBSWriter', 'priority': 10, 'jobsw': 'CMSSW_7_5_4', 'edmoutfiles': ['step2.root'], 'userfiles': [], 'primarydataset': '', 'inputdata': '/PYTHIA_QCD_0T_TuneCUETP8M1_cfi_GEN_SIM_5020GeV/rkunnawa-Pythia8_Dijet_0T_pthat80_pp_TuneCUETP8M1_5020GeV_PrivMC-b5d69ad931864113e91c5646287a3f6f/USER', 'dryrun': 0, 'workflow': 'crab_20151110_040538', 'sitewhitelist': ['T2_US_MIT'], 'nonprodsw': 0, 'tfileoutfiles': [], 'oneEventMode': 0, 'cacheurl': 'https://cmsweb.cern.ch/crabcache', 'saveoutput': 1, 'publication': 1, 'jobarch': 'slc6_amd64_gcc491', 'totalunits': 59000, 'splitalgo': 'EventAwareLumiBased', 'nonvaliddata': 0, 'dbsurl': 'https://cmsweb.cern.ch/dbs/prod/phys03/DBSReader', 'publishgroupname': 0, 'jobtype': 'Analysis', 'publishname2': 'Pythia8_Dijet_0T_pthat80_pp_TuneCUETP8M1_5020GeV_DIGIRAW_PrivMC'} 
+DEBUG 2015-11-10 04:05:45,883: 	 Encoded submit request: maxjobruntime=1250&ignorelocality=0&savelogsflag=0&useparent=0&asyncdest=T2_US_MIT&algoargs=100&cachefilename=b00dd4e1d5d674560944ba24551f6777a5500595b2d53e8bccaeea75b7aaffcd.tar.gz&numcores=1&generator=pythia&maxmemory=2000&publishdbsurl=https%3A%2F%2Fcmsweb.cern.ch%2Fdbs%2Fprod%2Fphys03%2FDBSWriter&priority=10&jobsw=CMSSW_7_5_4&primarydataset=&inputdata=%2FPYTHIA_QCD_0T_TuneCUETP8M1_cfi_GEN_SIM_5020GeV%2Frkunnawa-Pythia8_Dijet_0T_pthat80_pp_TuneCUETP8M1_5020GeV_PrivMC-b5d69ad931864113e91c5646287a3f6f%2FUSER&dryrun=0&workflow=crab_20151110_040538&nonprodsw=0&oneEventMode=0&cacheurl=https%3A%2F%2Fcmsweb.cern.ch%2Fcrabcache&saveoutput=1&publication=1&jobarch=slc6_amd64_gcc491&totalunits=59000&splitalgo=EventAwareLumiBased&nonvaliddata=0&dbsurl=https%3A%2F%2Fcmsweb.cern.ch%2Fdbs%2Fprod%2Fphys03%2FDBSReader&publishgroupname=0&jobtype=Analysis&publishname2=Pythia8_Dijet_0T_pthat80_pp_TuneCUETP8M1_5020GeV_DIGIRAW_PrivMC&adduserfiles=rssLimit&sitewhitelist=T2_US_MIT&edmoutfiles=step2.root
+DEBUG 2015-11-10 04:05:46,790: 	 Result: {'result': [{'RequestName': '151110_030546:rkunnawa_crab_20151110_040538'}]}
+INFO 2015-11-10 04:05:46,817: 	 Success: Your task has been delivered to the CRAB3 server.
+INFO 2015-11-10 04:05:46,817: 	 Task name: 151110_030546:rkunnawa_crab_20151110_040538
+INFO 2015-11-10 04:05:46,817: 	 Please use 'crab status' to check how the submission process proceeds.
+DEBUG 2015-11-10 04:05:46,818: 	 About to return
+INFO 2015-11-10 04:05:46,822: 	 Log file is /afs/cern.ch/work/r/rkunnawa/Run2_Production/CMSSW_7_5_4/src/PP/0T/step2_DIGI_L1_DIGI2RAW_HLT_RAW2DIGI_L1Reco_80/crab_20151110_040538/crab.log
