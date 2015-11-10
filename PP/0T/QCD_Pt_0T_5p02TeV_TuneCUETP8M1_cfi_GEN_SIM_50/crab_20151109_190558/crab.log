@@ -1,0 +1,132 @@
+DEBUG 2015-11-09 19:05:55,295: 	 Executing command: 'submit'
+DEBUG 2015-11-09 19:05:55,295: 	 Found CRAB cache file /afs/cern.ch/user/r/rkunnawa/.crab3
+DEBUG 2015-11-09 19:05:55,311: 	 Checking credentials
+DEBUG 2015-11-09 19:05:55,312: 	 Found proxy file /tmp/x509up_u47972
+DEBUG 2015-11-09 19:05:55,312: 	 Getting proxy life time left
+DEBUG 2015-11-09 19:05:56,877: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u47972 -timeleft
+ output : 85956
+
+ error: 
+ retcode : 0
+DEBUG 2015-11-09 19:05:58,132: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u47972 -actimeleft
+ output : 85953
+
+ error: 
+ retcode : 0
+DEBUG 2015-11-09 19:05:58,133: 	 Proxy valid for 23:52:36 hours
+INFO 2015-11-09 19:05:58,133: 	 Will use CRAB configuration file crabConfig.py
+DEBUG 2015-11-09 19:05:58,133: 	 Loading CRAB configuration file.
+DEBUG 2015-11-09 19:05:58,156: 	 Will use CRAB PrivateMC plugin (i.e. will run a MC generation job type).
+DEBUG 2015-11-09 19:05:58,846: 	 Executing : 
+ command : openssl x509 -in ~/.globus/usercert.pem -subject -noout
+ output : subject= /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=rkunnawa/CN=748357/CN=Raghav Kunnawalkam Elayavalli
+
+ error: WARNING: can't open config file: /build/dmwmbld/srv/state/dmwmbld/builds/comp_gcc481/w/tmp/BUILDROOT/ef35842be28ecca6d10195ea8182a5ac/build/dmwmbld/srv/state/dmwmbld/builds/comp_gcc481/w/slc6_amd64_gcc481/external/openssl/1.0.1p/ssl/openssl.cnf
+
+ retcode : 0
+DEBUG 2015-11-09 19:05:58,846: 	 Checking credentials
+DEBUG 2015-11-09 19:05:58,846: 	 Found proxy file /tmp/x509up_u47972
+DEBUG 2015-11-09 19:05:58,846: 	 Getting proxy life time left
+DEBUG 2015-11-09 19:06:00,608: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u47972 -timeleft
+ output : 85952
+
+ error: 
+ retcode : 0
+DEBUG 2015-11-09 19:06:01,870: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u47972 -actimeleft
+ output : 85950
+
+ error: 
+ retcode : 0
+DEBUG 2015-11-09 19:06:01,871: 	 Proxy valid for 23:52:32 hours
+DEBUG 2015-11-09 19:06:02,911: 	 Executing : 
+ command : env X509_USER_PROXY=/tmp/x509up_u47972 voms-proxy-info -fqan
+ output : /cms/Role=NULL/Capability=NULL
+/cms/uscms/Role=NULL/Capability=NULL
+
+ error: 
+ retcode : 0
+DEBUG 2015-11-09 19:06:06,545: 	 Registering user credentials for server /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119).cern.ch
+DEBUG 2015-11-09 19:06:06,779: 	 Executing : 
+ command : openssl x509 -in ~/.globus/usercert.pem -subject -noout
+ output : subject= /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=rkunnawa/CN=748357/CN=Raghav Kunnawalkam Elayavalli
+
+ error: WARNING: can't open config file: /build/dmwmbld/srv/state/dmwmbld/builds/comp_gcc481/w/tmp/BUILDROOT/ef35842be28ecca6d10195ea8182a5ac/build/dmwmbld/srv/state/dmwmbld/builds/comp_gcc481/w/slc6_amd64_gcc481/external/openssl/1.0.1p/ssl/openssl.cnf
+
+ retcode : 0
+DEBUG 2015-11-09 19:06:06,779: 	 Getting myproxy life time left for myproxy.cern.ch
+DEBUG 2015-11-09 19:06:06,779: 	 Calculating hash of /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=rkunnawa/CN=748357/CN=Raghav Kunnawalkam Elayavalli_cmsweb.cern.ch for credential name
+DEBUG 2015-11-09 19:06:07,311: 	 Executing : 
+ command : myproxy-info -l f177240e44e51f49e4026efe0693b4e2b9fc52c9 -s myproxy.cern.ch
+ output : username: f177240e44e51f49e4026efe0693b4e2b9fc52c9
+owner: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=rkunnawa/CN=748357/CN=Raghav Kunnawalkam Elayavalli
+  renewal policy: /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119).cern.ch
+  trusted retrieval policy: /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119).cern.ch
+  timeleft: 429:55:24  (17.9 days)
+
+ error: 
+ retcode : 0
+DEBUG 2015-11-09 19:06:07,313: 	 Myproxy is valid: 1547724
+DEBUG 2015-11-09 19:06:07,313: 	 Command use: submit
+DEBUG 2015-11-09 19:06:07,313: 	 Options use: ['-c', 'crabConfig.py']
+DEBUG 2015-11-09 19:06:07,894: 	 CRABClient version: 3.3.1511
+DEBUG 2015-11-09 19:06:07,894: 	 Instance is prod
+DEBUG 2015-11-09 19:06:07,894: 	 Server base url is cmsweb.cern.ch
+DEBUG 2015-11-09 19:06:07,894: 	 Command url /crabserver/prod/workflow
+DEBUG 2015-11-09 19:06:07,894: 	 Started submission
+DEBUG 2015-11-09 19:06:07,894: 	 Working on /afs/cern.ch/work/r/rkunnawa/Run2_Production/CMSSW_7_5_4/src/PP/0T/QCD_Pt_0T_5p02TeV_TuneCUETP8M1_cfi_GEN_SIM_50/crab_20151109_190558
+INFO 2015-11-09 19:06:18,653: 	 The server answered with an error.
+INFO 2015-11-09 19:06:18,653: 	 Server answered with: Database unavailable
+INFO 2015-11-09 19:06:18,653: 	 Error Id: c36d57325d231869ab229e3c36fdbacb
+DEBUG 2015-11-09 19:06:18,660: 	 ERROR:  (503):  '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+    <title>503 Service Unavailable</title>
+    <style type="text/css">
+    #powered_by {
+        margin-top: 20px;
+        border-top: 2px solid black;
+        font-style: italic;
+    }
+
+    #traceback {
+        color: red;
+    }
+    </style>
+</head>
+    <body>
+        <h2>503 Service Unavailable</h2>
+        <p>Database unavailable</p>
+        <pre id="traceback"></pre>
+    <div id="powered_by">
+    <span>Powered by <a href="http://www.cherrypy.org">CherryPy 3.2.2</a></span>
+    </div>
+    </body>
+</html>
+'
+DEBUG 2015-11-09 19:06:18,660: 	 Command failed with URI: https://cmsweb.cern.ch/crabserver/prod/info
+DEBUG 2015-11-09 19:06:18,660: 	      Input data: {'subresource': 'backendurls'}
+DEBUG 2015-11-09 19:06:18,660: 	      Request headers: {'X-Error-Http': '503', 'Transfer-Encoding': 'chunked', 'X-Rest-Time': '10292567.015 us', 'X-Error-Detail': 'Database unavailable', 'Server': 'CherryPy/3.2.2', 'Connection': 'close', 'X-Error-Id': 'c36d57325d231869ab229e3c36fdbacb', 'X-Rest-Status': '401', 'Date': 'Mon, 09 Nov 2015 18:06:08 GMT', 'Content-Type': 'text/html;charset=utf-8', 'CMS-Server-Time': 'D=10300944 t=1447092368336319'}
+ERROR 2015-11-09 19:06:18,660: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc481/cms/crabclient/3.3.1511/bin/crab", line 159, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc481/cms/crabclient/3.3.1511/bin/crab", line 147, in __call__
+    self.cmd()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc481/cms/crabclient/3.3.1511/lib/python2.6/site-packages/CRABClient/Commands/submit.py", line 92, in __call__
+    serverBackendURLs = server_info('backendurls', self.serverurl, self.proxyfilename, getUrl(self.instance, resource='info'))
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc481/cms/crabclient/3.3.1511/lib/python2.6/site-packages/CRABClient/ClientUtilities.py", line 663, in server_info
+    dictresult, status, reason = server.get(baseurl, requestdict)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc481/cms/crabclient/3.3.1511/lib/python2.6/site-packages/RESTInteractions.py", line 63, in get
+    return self.makeRequest(uri = uri, data = data, verb = 'GET')
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc481/cms/crabclient/3.3.1511/lib/python2.6/site-packages/RESTInteractions.py", line 113, in makeRequest
+    capath=caCertPath)#, verbose=True)# for debug
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc481/cms/crabclient/3.3.1511/lib/python2.6/site-packages/WMCore/Services/pycurl_manager.py", line 172, in request
+    raise exc
+HTTPException
+INFO 2015-11-09 19:06:18,729: 	 Log file is /afs/cern.ch/work/r/rkunnawa/Run2_Production/CMSSW_7_5_4/src/PP/0T/QCD_Pt_0T_5p02TeV_TuneCUETP8M1_cfi_GEN_SIM_50/crab_20151109_190558/crab.log

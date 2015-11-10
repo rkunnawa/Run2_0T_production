@@ -1,0 +1,6 @@
+DEBUG 2015-11-10 03:11:11,486: 	 Executing command: 'status'
+DEBUG 2015-11-10 03:11:11,489: 	 Found CRAB cache file /afs/cern.ch/user/r/rkunnawa/.crab3
+DEBUG 2015-11-10 03:11:11,500: 	 Checking credentials
+DEBUG 2015-11-10 03:11:11,500: 	 Proxy file /tmp/x509up_u47972 not found
+DEBUG 2015-11-10 03:11:11,501: 	 Creating new proxy for 24:00 hours with VO group '' and VO role 'NULL'.
+ERROR 2015-11-10 03:12:45,324: 	 Keyboard Interrupted
