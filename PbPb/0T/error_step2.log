@@ -1,0 +1,46 @@
+[rkunnawa@lxplus0081 0T]$ source submit_crab_DIGIRAW.sh 
+done 30
+done 50
+done 80
+done 120
+done 170
+Will use CRAB configuration file crabConfig_DIGIRAW.py
+Importing CMSSW configuration step2_DIGI_L1_DIGI2RAW_HLT_RAW2DIGI_L1Reco_PU.py
+ERROR: AttributeError: 'Process' object has no attribute 'g4SimHits'
+
+	Please email hn-cms-computing-tools@cern.ch for support with the crab.log file or crab.log URL.
+	Client Version: 3.3.1511
+	The log file /afs/cern.ch/work/r/rkunnawa/Run2_Production/CMSSW_7_5_4/src/PbPb/0T/step2_DIGI_L1_DIGI2RAW_HLT_RAW2DIGI_L1Reco_PU_30/crab_20151110_035206/crab.log has been uploaded automatically to the CRAB cache.
+	Please email the following URL 'https://cmsweb.cern.ch/crabcache/logfile?name=2015-11-10_035218_crab.log&username=rkunnawa' to hn-cms-computing-tools@cern.ch if you need help from Analysis Operations.
+Will use CRAB configuration file crabConfig_DIGIRAW.py
+Importing CMSSW configuration step2_DIGI_L1_DIGI2RAW_HLT_RAW2DIGI_L1Reco_PU.py
+ERROR: AttributeError: 'Process' object has no attribute 'g4SimHits'
+
+	Please email hn-cms-computing-tools@cern.ch for support with the crab.log file or crab.log URL.
+	Client Version: 3.3.1511
+	The log file /afs/cern.ch/work/r/rkunnawa/Run2_Production/CMSSW_7_5_4/src/PbPb/0T/step2_DIGI_L1_DIGI2RAW_HLT_RAW2DIGI_L1Reco_PU_50/crab_20151110_035224/crab.log has been uploaded automatically to the CRAB cache.
+	Please email the following URL 'https://cmsweb.cern.ch/crabcache/logfile?name=2015-11-10_035230_crab.log&username=rkunnawa' to hn-cms-computing-tools@cern.ch if you need help from Analysis Operations.
+Will use CRAB configuration file crabConfig_DIGIRAW.py
+Importing CMSSW configuration step2_DIGI_L1_DIGI2RAW_HLT_RAW2DIGI_L1Reco_PU.py
+ERROR: AttributeError: 'Process' object has no attribute 'g4SimHits'
+
+	Please email hn-cms-computing-tools@cern.ch for support with the crab.log file or crab.log URL.
+	Client Version: 3.3.1511
+	The log file /afs/cern.ch/work/r/rkunnawa/Run2_Production/CMSSW_7_5_4/src/PbPb/0T/step2_DIGI_L1_DIGI2RAW_HLT_RAW2DIGI_L1Reco_PU_80/crab_20151110_035236/crab.log has been uploaded automatically to the CRAB cache.
+	Please email the following URL 'https://cmsweb.cern.ch/crabcache/logfile?name=2015-11-10_035242_crab.log&username=rkunnawa' to hn-cms-computing-tools@cern.ch if you need help from Analysis Operations.
+Will use CRAB configuration file crabConfig_DIGIRAW.py
+Importing CMSSW configuration step2_DIGI_L1_DIGI2RAW_HLT_RAW2DIGI_L1Reco_PU.py
+ERROR: AttributeError: 'Process' object has no attribute 'g4SimHits'
+
+	Please email hn-cms-computing-tools@cern.ch for support with the crab.log file or crab.log URL.
+	Client Version: 3.3.1511
+	The log file /afs/cern.ch/work/r/rkunnawa/Run2_Production/CMSSW_7_5_4/src/PbPb/0T/step2_DIGI_L1_DIGI2RAW_HLT_RAW2DIGI_L1Reco_PU_120/crab_20151110_035248/crab.log has been uploaded automatically to the CRAB cache.
+	Please email the following URL 'https://cmsweb.cern.ch/crabcache/logfile?name=2015-11-10_035254_crab.log&username=rkunnawa' to hn-cms-computing-tools@cern.ch if you need help from Analysis Operations.
+Will use CRAB configuration file crabConfig_DIGIRAW.py
+Importing CMSSW configuration step2_DIGI_L1_DIGI2RAW_HLT_RAW2DIGI_L1Reco_PU.py
+ERROR: AttributeError: 'Process' object has no attribute 'g4SimHits'
+
+	Please email hn-cms-computing-tools@cern.ch for support with the crab.log file or crab.log URL.
+	Client Version: 3.3.1511
+	The log file /afs/cern.ch/work/r/rkunnawa/Run2_Production/CMSSW_7_5_4/src/PbPb/0T/step2_DIGI_L1_DIGI2RAW_HLT_RAW2DIGI_L1Reco_PU_170/crab_20151110_035259/crab.log has been uploaded automatically to the CRAB cache.
+	Please email the following URL 'https://cmsweb.cern.ch/crabcache/logfile?name=2015-11-10_035308_crab.log&username=rkunnawa' to hn-cms-computing-tools@cern.ch if you need help from Analysis Operations.
